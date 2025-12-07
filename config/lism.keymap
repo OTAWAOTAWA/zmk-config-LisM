@@ -74,5 +74,23 @@
 &trans       &trans          &trans             &trans                &trans                 &trans    &trans  &trans       &trans                &trans          &trans          &trans
             >;
         };
+
+        mouse {
+            bindings = <
+&mkp MB4  &mkp MB3  &mkp MB5  &trans  &trans                    &trans  &trans  &mkp MB4  &mkp MB3  &mkp MB5
+&mkp MB1  &trans    &mkp MB2  &trans  &trans                    &trans  &trans  &mkp MB1  &trans    &mkp MB2
+&trans    &trans    &trans    &trans  &trans                    &trans  &trans  &trans    &trans    &trans
+&trans    &trans    &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
+            >;
+        };
+
+        scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
