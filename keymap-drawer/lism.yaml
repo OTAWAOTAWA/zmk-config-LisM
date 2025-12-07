@@ -52,7 +52,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - +
+  - '&COLON'
   - '-'
   - {t: BT, h: '1'}
   - F5
@@ -62,7 +62,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '*'
+  - '&DOUBLE_QUOTES'
   - FSLH
   - {t: BT, h: '2'}
   - F9
@@ -85,35 +85,35 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '='
+  - '&UNDER'
   kigo:
-  - '@'
-  - '{'
+  - '['
   - '}'
-  - (
-  - )
-  - LCTRL
-  - '!'
   - '|'
-  - '`'
+  - '*'
+  - (
+  - '='
+  - '!'
+  - Sft+0x89
+  - '{'
   - ''
   - '#'
-  - SQT
-  - '"'
-  - '['
-  - ']'
-  - '%'
   - '&'
-  - '~'
+  - AT
+  - ']'
+  - \
+  - '%'
+  - ^
+  - +
   - UP ARROW
-  - UNDERSCORE
+  - Sft+0x87
   - $
-  - ':'
+  - ''''
   - ;
   - LESS THAN
   - GREATER THAN
   - /
-  - NON US BACKSLASH
+  - '0x89'
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
