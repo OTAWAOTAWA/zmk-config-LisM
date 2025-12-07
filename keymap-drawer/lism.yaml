@@ -62,7 +62,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '&DOUBLE_QUOTES'
+  - '"'
   - FSLH
   - {t: BT, h: '2'}
   - F9
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&UNDER'
+  - _
   kigo:
   - '['
   - '}'
