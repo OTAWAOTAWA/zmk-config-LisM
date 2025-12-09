@@ -36,8 +36,8 @@ layers:
   - LALT
   - ''
   - SPACE
-  - DEL
-  - BSPC
+  - {t: DEL, h: sugi}
+  - {t: BS, h: kigo}
   - ENTER
   - ''
   - TAB
@@ -79,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,3 +215,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [34, 35]
+  k: LANG1
+- p: [36, 37]
+  k: LANG2
+- p: [24, 22]
+  k: BT CLR
+- p: [24, 22, 10]
+  k: BT CLR ALL
