@@ -75,12 +75,12 @@
         compatible = "zmk,combos";
 
         En {
-            bindings = <&kp LANG1>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <34 35>;
         };
 
         Ja {
-            bindings = <&kp LANG2>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <36 37>;
         };
 
