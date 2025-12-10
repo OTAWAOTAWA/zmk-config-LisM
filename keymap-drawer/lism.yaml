@@ -217,9 +217,9 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [34, 35]
-  k: LANG1
+  k: LANGUAGE 2
 - p: [36, 37]
-  k: LANG2
+  k: LANGUAGE 1
 - p: [24, 22]
   k: BT CLR
 - p: [24, 22, 10]
