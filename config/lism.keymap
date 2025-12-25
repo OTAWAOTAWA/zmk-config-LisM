@@ -109,6 +109,8 @@
 
         sugi {
             bindings = <
+                compatible = "zmk,behavior-sensor-scroll"; 
+                direction = "vertical";
 &bt BT_SEL 0  &kp F1        &kp F2   &kp F3   &kp F4                     &kp N7  &kp N8  &kp N9  &kp JP_PLUS      &kp MINUS
 &bt BT_SEL 1  &kp F5        &kp F6   &kp F7   &kp F8                     &kp N4  &kp N5  &kp N6  &kp JP_ASTERISK  &kp FSLH
 &bt BT_SEL 2  &kp F9        &kp F10  &kp F11  &kp F12                    &kp N1  &kp N2  &kp N3  &kp DOT          &kp N0
@@ -118,6 +120,8 @@
 
         kigo {
             bindings = <
+                compatible = "zmk,behavior-sensor-scroll"; 
+                direction = "horizontal";
 &kp JP_AT   &kp JP_LBRACE  &kp JP_RBRACE  &kp JP_LPAREN    &kp JP_RPAREN                       &kp JP_CARET  &kp EXCLAMATION   &kp JP_PIPE     &kp JP_BACKQUOTE  &none
 &kp HASH    &kp JP_QUOTE   &kp JP_DQUOTE  &kp JP_LBRACKET  &kp JP_RBRACKET                     &kp PERCENT   &kp JP_AMPERSAND  &kp JP_TILDE    &kp UP_ARROW      &kp JP_UNDERSCORE
 &kp DOLLAR  &kp JP_COLON   &kp SEMICOLON  &kp LESS_THAN    &kp GREATER_THAN                    &kp SLASH     &kp JP_YEN        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW
