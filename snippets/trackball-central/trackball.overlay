@@ -24,7 +24,6 @@
 
     scroller {
         layers = <4>;
-        invert-y = <1>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 1 16>;
