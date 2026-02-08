@@ -117,7 +117,7 @@
 &bt BT_SEL 3  &bt BT_SEL 4  &trans   &trans   &trans   &trans    &trans  &trans  &trans  &trans  &trans           &kp JP_EQUAL
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         kigo {
@@ -127,6 +127,8 @@
 &kp DOLLAR  &kp JP_COLON   &kp SEMICOLON  &kp LESS_THAN    &kp GREATER_THAN                    &kp SLASH     &kp JP_YEN        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW
 &trans      &trans         &trans         &trans           &trans            &trans    &trans  &trans        &trans            &trans          &trans            &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         mouse {
