@@ -106,7 +106,7 @@
 &kp LCTRL  &kp LSHFT  &kp LALT  &none  &kp SPACE  &lt 1 DELETE    &lt 2 BACKSPACE  &kp ENTER  &none  &lt 4 TAB  &kp LGUI  &kp ESC
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         sugi {
