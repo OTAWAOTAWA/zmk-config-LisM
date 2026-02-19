@@ -10,6 +10,10 @@ manifest:
       url-base: https://github.com/4mplelab
     - name: cormoran
       url-base: https://github.com/cormoran
+      
+    - name: prospector
+      url-base: https://github.com/t-ogura
+      
   projects:
     - name: zmk
       remote: cormoran
@@ -40,5 +44,11 @@ manifest:
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
+
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: v2.0.0  # Use specific version tag
+      path: modules/prospector-zmk-module
+      
   self:
     path: config
